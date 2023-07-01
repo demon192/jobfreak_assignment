@@ -1,0 +1,40 @@
+.wrapper{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 500px;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.section {
+    display: flex;
+    gap: 30px;
+}
+
+.section-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+}
+
+.section-main h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.section p{
+    /* padding: 38px 0px 0px; */
+    align-self: center;
+}

@@ -1,0 +1,62 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    background: #eee4d7;
+    height: auto;
+    min-height: 100vh;
+}
+
+.title{
+    align-self: center;
+}
+
+.contactform{
+    align-self: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid brown;
+    padding: 40px 80px;
+    background: #cfd6dc;
+    border-radius: 15px;
+}
+
+.contactform span{
+    color: red;
+}
+
+input{
+    width: 350px;
+    height: 25px;
+    padding: 0px 10px;
+}
+
+select{
+    width: 100px;
+    height: 25px;
+}
+
+textarea{
+    width: 350px;
+    resize: none;
+    padding: 10px;
+}
+
+.btn{
+    width: 160px;
+    height: 40px;
+    background: #777777;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-submit{
+    align-self: center;
+}
+

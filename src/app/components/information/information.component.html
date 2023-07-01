@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <h2 class="title">Information</h2>
+    <div class="user-details" >
+        <p [hidden]="!firstname">First name : {{firstname}}</p>
+        <p [hidden]="!lastname">Last name : {{lastname}}</p>
+        <p [hidden]="!email">Email : {{email}}</p>
+        <p [hidden]="!contact">Contact : {{contact}}</p>
+        <p [hidden]="!gender">Gender : {{gender}}</p>
+        <p [hidden]="!message">Message : {{message}}</p>
+        <p *ngIf="!messageShow">Currently No Information Fill the form first.</p>
+    </div>
+</div>
+

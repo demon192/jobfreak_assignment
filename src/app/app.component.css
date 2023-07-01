@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    background: #312a2a;
+    color: white;
+    padding: 40px;
+    gap: 20px;
+    height: auto;
+    min-height: 100vh;
+    min-width: 285px;
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.component{
+    flex-basis: 80%;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 32px;
+}

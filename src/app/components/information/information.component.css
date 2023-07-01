@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    background: #eee4d7;
+    height: auto;
+    min-height: 100vh;
+}
+
+.title{
+    align-self: center;
+}
+
+.user-details{
+    align-self: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid brown;
+    padding: 40px 80px;
+    background: #cfd6dc;
+    border-radius: 15px;
+}

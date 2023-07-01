@@ -1,0 +1,35 @@
+<div class="wrapper">
+    <h2 class="title">CONTACT US</h2>
+    <form [formGroup]="contactForm" class="contactform" (ngSubmit)="OnSubmit()">
+        <p>
+            <label for="firstname">First Name <span>*</span></label><br>
+            <input type="text" name="firstname" formControlName="firstname">
+        </p>
+        <p>
+            <label for="lastname">Last Name</label><br>
+            <input type="text" name="lastname" formControlName="lastname">
+        </p>
+        <p>
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="" formControlName="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </p>
+        <p>
+            <label for="email">Email <span>*</span></label><br>
+            <input type="text" name="email" formControlName="email">
+        </p>
+        <p>
+            <label for="contact">Contact <span>*</span></label><br>
+            <input type="text" name="contact" formControlName="contact">
+        </p>
+        <p>
+            <label for="message">Message</label><br>
+            <textarea name="" id="" cols="30" rows="10" formControlName="message"></textarea>
+        </p>
+        <div class="btn-submit">
+            <button type="submit" class="btn" [disabled]="!contactForm.valid">Submit Form</button>
+        </div>
+    </form>
+</div>
